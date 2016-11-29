@@ -18,3 +18,13 @@ python	manage.py	flush
 
 6. create superuser
 python	manage.py	createsuperuser
+
+7. data put
+python	manage.py	dumpdata	appname	>	appname.json
+python	manage.py	loaddata	appname.json
+
+8. project env shell
+python	manage.py	shell
+
+9. database env shell
+python	manage.py	dbshell
