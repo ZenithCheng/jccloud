@@ -1,0 +1,20 @@
+Django basic command
+
+1. create a new	django project
+django-admin.py	startproject	projectname
+
+2. create new app 
+python	manage.py	startapp	appname
+
+3. database sync
+python	manage.py	makemigrations
+python	manage.py	migrate
+
+4. run server
+python	manage.py	runserver	[0.0.0.0:8000]
+
+5. flush database
+python	manage.py	flush
+
+6. create superuser
+python	manage.py	createsuperuser
